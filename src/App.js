@@ -11,7 +11,7 @@ function App() {
       </header>
       <section>
         <div id="twitter">
-          <a className="btn" href="/" target="_blank" rel="noopener noreferrer">
+          <a className="btn" href="https://twitter.com/Promiseorung" target="_blank" rel="noopener noreferrer">
             Twitter Link
           </a>
         </div>
