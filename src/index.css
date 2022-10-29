@@ -7,7 +7,42 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#profile_img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
+#slack {
+  display: none;
+}
+
+.btn {
+  box-sizing: border-box;
+padding: 24px 32px;
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+height: 76px;
+color: #101828;
+background: #EAECF0;
+text-decoration: none;
+border: 1px solid #EAECF0;
+border-radius: 8px;
+font-weight: 500;
+font-size: 18px;
+margin-bottom: 24px;
+}
+.App-header  {
+  text-align: center;
+}
+.App-header h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #101828;
 }
