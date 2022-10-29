@@ -1,85 +1,52 @@
-import profile_img from "./profile-img.jpeg";
+import profile_img from "./images/profile-img.jpeg";
+import i4g from "./images/I4G.png";
+import zuri from "./images/Zuri_Internship_Logo.png";
 
 function App() {
   return (
-    <div className="App">
+    <div className="m-5">
       <header className="App-header">
         <img src={profile_img} id="profile_img" alt="logo" />
         <h1>Promise Orung</h1>
       </header>
       <section>
         <div id="twitter">
-          <a
-            className="btn"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn" href="/" target="_blank" rel="noopener noreferrer">
             Twitter Link
           </a>
         </div>
         <div id="slack">
-          <a
-            className="btn"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn" href="/" target="_blank" rel="noopener noreferrer">
             Magnificent
           </a>
         </div>
         <div>
-          <a
-            className="btn"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn" href="https://training.zuri.team/" id="btn__zuri" target="_blank" rel="noopener noreferrer">
             Zuri Team
           </a>
         </div>
         <div>
-          <a
-            className="btn"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn" id="book__python" href="https://books.zuri.team/python-for-beginners?ref_id=magnificent" target="_blank" rel="noopener noreferrer">
             Python Books
           </a>
         </div>
         <div>
-          <a
-            className="btn"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn" href="https://background.zuri.team" id="pitch" target="_blank" rel="noopener noreferrer">
             Background Check for Coders
           </a>
         </div>
         <div>
-          <a
-            className="btn"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn" href="http://books.zuri.team" id="books" target="_blank" rel="noopener noreferrer">
             Zuri Books
           </a>
         </div>
         <div>
-          <a
-            className="btn"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn"  id="book__design" href="https://books.zuri.team/design-rules" target="_blank" rel="noopener noreferrer">
             Design Books
           </a>
         </div>
       </section>
-      <footer>
+      <section className="flex-sm justify-center">
         <div>
           <svg
             width="24"
@@ -128,6 +95,14 @@ function App() {
               </clipPath>
             </defs>
           </svg>
+        </div>
+      </section>
+      <hr className="py-2"/>
+      <footer className="flex justifybetween"> 
+        <div className="mb-1"><img src={zuri}  alt="logo" /></div>
+        <div className="mb-1">HNG Internship 9 Frontend Task</div>
+        <div className="mb-1">
+        <img src={i4g}  alt="logo" />
         </div>
       </footer>
     </div>

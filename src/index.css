@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -45,4 +45,35 @@ font-weight: 700;
 font-size: 20px;
 line-height: 30px;
 color: #101828;
+}
+.m-5 {
+  margin: 10rem;
+}
+.py-2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.flex {
+  display: flex;
+}
+.justifybetween {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+  gap: 1rem;
+}
+.flex-sm {
+  display: flex;
+}
+@media (max-width:768px) {
+  .flex {
+    display: block;
+  }
+  .m-5 {
+    margin: 1rem;
+  }
+  .mb-1 {
+    margin-bottom: 1rem;
+  }
 }
