@@ -17,7 +17,7 @@ body {
   display: none;
 }
 
-.btn {
+.link {
   box-sizing: border-box;
 padding: 24px 32px;
 display: flex;
@@ -47,7 +47,7 @@ line-height: 30px;
 color: #101828;
 }
 .m-5 {
-  margin: 10rem;
+  margin: 3rem 10rem !important;
 }
 .py-2 {
   margin-top: 2rem;
@@ -71,9 +71,15 @@ color: #101828;
     display: block;
   }
   .m-5 {
-    margin: 1rem;
+    margin: 1rem !important;
+  }
+  .p-5 {
+    padding: 1rem !important;
   }
   .mb-1 {
     margin-bottom: 1rem;
+  }
+  .ms-0 {
+    margin: 0 !important;
   }
 }
